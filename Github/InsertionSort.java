@@ -4,14 +4,6 @@ import java.util.Arrays;
 
 public class InsertionSort {
 
-    public static void main(String[] args) {
-
-        int A[] = {9,9,5,4,3,2,1,0,88,8};
-        insertionSortRecursive(A, A.length-1);
-        System.out.println(Arrays.toString(A));
-
-    }
-
     public static int [] insertionSort(int A[],int n){
 
 
